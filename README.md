@@ -1,7 +1,7 @@
 # Big Mart Sales Prediction
 ## Subtitle describing the analysis 
 
-**Reeva Bhatkal**: 
+**Reeva Bhatkal** 
 
 ## Business problem:
 
