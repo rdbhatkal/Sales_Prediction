@@ -108,15 +108,16 @@ Refer to the metrics to describe how well the model would solve the business pro
 
 ## Recommendations:
 
-More of your own text here
+We Recommend using Random Forest Regression for prediction of the Item_Outlet Sales. 
+
+Through our analysis we found that even though Linear regression had a balance model, there were very miniscual changes to the R^2 score when we regulized the regression model . 
+
+The Random Forest Regression tree had a very high variance in the inital model, but we were able to use hyperparameters to reduce the variance and produce a R^2 score of 60.2 % compared to 56.4% from the Linear regression model 
 
 
 ## Limitations & Next Steps
 
-More of your own text here
+Since Big Mart chain will continue to collect data, we will also be able to create a more powerful model in future as the model will keep learning as we add more data points. Given that Random Forest has numerous hyperparameters, we can always use these to understand and optimize our model  
 
 
-### For further information
 
-
-For any additional questions, please contact **email**
