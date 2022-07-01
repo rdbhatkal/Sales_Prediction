@@ -15,7 +15,6 @@ The dataset contains sales data for 1559 products across 10 stores of the Big Ma
 
 Here is the Data Dictionary for this dataset:
 
-## Tables
 
 | Variable Name               | Description |
 | ----------------------------|:-------------:|
