@@ -184,9 +184,9 @@ Using Linear Regression our R^2 value was 56.4%. Our model has improved by manup
 
 We Recommend using Random Forest Regression for prediction of the Item_Outlet Sales. 
 
-Through our analysis we found that even though Linear regression had a balance model, there were very miniscual changes to the R^2 score when we regulized the regression model . 
+Through our analysis we found that even though Linear regression had an inital model, there were very miniscual changes to the R^2 score when we regulized the regression model . 
 
-The Random Forest Regression tree had a very high variance in the inital model, but we were able to use hyperparameters to reduce the variance and produce a R^2 score of 60.2 % compared to 56.4% from the Linear regression model 
+The Random Forest Regression tree had a very high variance in the inital model, but we were able to use hyperparameters to reduce the variance and produce a R^2 score of 60.2 % compared to 56.4% from the Linear regression model. Ideally we would like a score around 80-90%,  but 60% may be the best possible with the available data. Since Big Mart is a large chain in the real world we might want to seek more data.
 
 
 ## Limitations & Next Steps
