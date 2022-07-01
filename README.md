@@ -32,7 +32,7 @@ Here is the Data Dictionary for this dataset:
     1. Replacing the miscoded information 
 2. Create Exploratory Data Analysis on the data using pandas.
 3. Create Explanatory visualization of feature distributions and correlation using matplotlib, seaborn and pandas
-4. Build regression models on selected features and target variable 
+4. Build regression models on selected features and target variable  
     4. Identify three types of features (Numeric, Ordinal, Nominal)
     4. Transform each type of feature for machine learning
     4. Use ordinal encoding for ordinal categorical features.
