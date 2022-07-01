@@ -25,7 +25,7 @@ Here is the Data Dictionary for this dataset:
 
 *Note:  Please note that the data may have missing values as some stores might not report all the data. We will be required to treat missing values accordingly.
 
-## Methods
+## Methodology
 1. Use pandas library to perform data cleaning: 
     1. Deleting duplicate values
     1. Identifying and handling missing values by imputing its mean
