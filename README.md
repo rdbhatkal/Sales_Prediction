@@ -3,12 +3,12 @@
 
 **Reeva Bhatkal**: 
 
-### Business problem:
+## Business problem:
 
 Big Mart wants to understand the features that impact the sales of products across their 10 outlets. Using a prediction model, we will help Big Mart analyze the properties of products and outlets that play crucial roles in increasing sales. 
 
 
-### Data:
+## Data:
 The Big Mart Sales Analysis data set was collected from:
 https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 The dataset contains sales data for 1559 products across 10 stores of the Big Mart chain. 
@@ -17,11 +17,23 @@ Here is the Data Dictionary for this dataset:
 
 ## Tables
 
-| Variable Name        | Description |
-| -------------        |:-------------:|
-| Item_Identifier      | right foo     |
-| Item_Weight          | right bar     |
-| left baz             | right baz     |
+| Variable Name               | Description |
+| ----------------------------|:-------------:|
+| Item_Identifier             | Unique product ID     |
+| Item_Weight                 | Weight of product     |
+| Item_Fat_Content            | Whether the product is low fat or regular   |
+| Item_Visibility             | The percentage of total display area of all products in a store allocated to the particular product     |
+| Item_Type                   | The category to which the product belongs    |
+| Item_MRP                    | Maximum Retail Price (list price) of the product     |
+| Outlet_Identifier           | Unique store ID     |
+| Outlet_Establishment_Year   | The year in which store was established     |
+| Outlet_Size                 | The size of the store in terms of ground area covered     |
+| Outlet_Location_Type        | The type of area in which the store is located     |
+| Outlet_Type                 | Whether the outlet is a grocery store or some sort of supermarket     |
+| Item_Outlet_Sales           | Sales of the product in the particular store. This is the target variable to be predicted.  |
+
+
+
 
 *Note:  Please note that the data may have missing values as some stores might not report all the data. We will be required to treat missing values accordingly.
 
