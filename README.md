@@ -55,7 +55,7 @@ Here is the Data Dictionary for this dataset:
 6. Choose the most important metric for the analysis
 
 
-## Results
+## Observations
 
 
 ### UNDERSTANDING SALES AT DIFFERENT OUTLETS
