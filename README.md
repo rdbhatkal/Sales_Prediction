@@ -100,11 +100,85 @@ From the above visualization, we can see that, For Baking Goods:
 
 ## Model
 
-Describe your final model
+We build a Linear Regression model and a  Random Forest Regression to understand which is more reliable for prediction of the Item_Outlet Sales. 
+#### Linear Regression gives the following metrics:
+Train Evaluation
+MAE 846.9176886107637,
+ MSE 1301889.0402027466,
+ RMSE: 1141.0035233086471,
+ R^2: 0.5600917296341095 
 
-Report the most important metrics
+Test Evaluation
+MAE 805.754926513374,
+ MSE 1201631.7387397676,
+ RMSE: 1096.1896454262683,
+ R^2: 0.5644647949621047
+ 
+ We can see that the RMSE value of the test data is approximatley 1096. The RMSE value tells us that the average deviation between the predicted Item_Outlet_Sales made by the model and the actual Item_Outlet_Sales is approximatley $1,096.
+ The R^2 value tells us that the variables in the ML model we created are able to explain 56.4% of the variation in the Item_Outlet_Sales.
+ 
+ 
+ Next we apply Ridge regression to see if we can Regularize our Linear regression model 
+ #### Ridge Regression gives the following metrics:
+ Train Evaluation
+MAE 847.5487817352333,
+ MSE 1300951.191335338,
+ RMSE: 1140.5924738202239,
+ R^2: 0.5604086287402438 
 
-Refer to the metrics to describe how well the model would solve the business problem
+Test Evaluation
+MAE 804.5781615636313,
+ MSE 1196906.3290611205,
+ RMSE: 1094.0321426087628,
+ R^2: 0.5661775345701946 
+
+We see that there no improvement in our metrics by normalizing our Regression model so we try a different model 
+
+#### Random Forest Regression gives us an initial test and train score of 
+
+Train Evaluation
+MAE 305.88789018102386,
+ MSE 199838.11596472378,
+ RMSE: 447.03256700683875,
+ R^2: 0.932474706190376 
+
+Test Evaluation
+MAE 807.2115214143415,
+ MSE 1358856.6603631238,
+ RMSE: 1165.7000730733114,
+ R^2: 0.5074781273595064 
+
+We see that the R^2 value is just 50.7%. The random forest model currently has a high variance. Lets try to tune our model to see if we can get a balanced model by tuning the parameters
+
+We will look at 4 Random Forest hyperparameters and understand how to tune and optimize them to get a better R^2 score
+
+max_depth
+n_estimators
+min_sample_split
+min_samples_leaf
+
+After tuning we see that the new metrics for the model are as below: 
+Train Evaluation
+MAE 755.8202036144247,
+ MSE 1153575.761980628,
+ RMSE: 1074.0464431208866,
+ R^2: 0.6102067822078885 
+
+Test Evaluation
+MAE 728.6857362036918,
+ MSE 1097898.9198369163,
+ RMSE: 1047.8067187401102,
+ R^2: 0.6020630816030641 
+ 
+ RMSE
+We can see that the RMSE value of the test data is approximatley 1047. The RMSE value tells us that the average deviation between the predicted Item_Outlet_Sales made by the model and the actual Item_Outlet_Sales is approximatley $1,047.
+
+Using Linear Regression our RMSE value was 1096. Even though our model is improved a little, it is not significant
+
+R^2
+The R^2 value tells us that the variables in the ML model we created are able to explain 60.2% of the variation in the Item_Outlet_Sales.
+
+Using Linear Regression our R^2 value was 56.4%. Our model has improved by manupilating the hyperparameters in the Random Forest Regression
 
 ## Recommendations:
 
