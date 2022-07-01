@@ -46,15 +46,45 @@ Here is the Data Dictionary for this dataset:
 
 ## Results
 
-### Here are examples of how to embed images from your sub-folder
+
+### UNDERSTANDING SALES AT DIFFERENT OUTLETS
 
 
-#### Visual 1 Title
-![sample image](project1_sample_image.png)
+<img src ="Images/Sales by Outlet.png">
 
-> Sentence about visualization.
+This box plot shows us how each Outlet is performing with respect to its sales. We can see that outlet OUT027 is performing great in terms of Item_Outlet_Sales while OUT010 and OUT019 are performing poorly
 
-#### Visual 2 Title
+### ANALYZING AVAERAGE SALES BY ITEM TYPE AT DIFFERENT OUTLETS 
+
+<img src ="Images/Avg Sales by Item Type.png">
+
+The above vizualization shows us the Sales of items by its Item_Type
+
+* In Supermarket Type 1 Seafood and Starchy Food have highest sales
+
+* In Supermarket Type 2 Seafood and Hard Drinks have highest sales
+
+* Grocery Stores Breakfast and Meat item types have the hieghest sales
+
+* In Supermarket Type 3 Breakfast and Fruits and Vegetables have highest sales
+
+### ITEM_MRP of TOP 3 ITEM TYPES (ie. Baking Goods, Breads & Breakfast) FOR EACH OUTLET TYPE
+<img src ="Images/MRP at Outlet.png">
+
+From the above visualization, we can see that, For Baking Goods:
+
+#### For Baking Goods:
+   * The median price is the almost the same for Supermarket Type2, Supermaket Type 3 and Grocey Store
+   * The median price for Supermarket Type 1 is slightly lower than
+   * The mean price for Baking Goods across the different outlets is almost the same
+   * The mean price is higher than the median price for all outlet Types
+#### For Breakfast Items:
+   * The median Breakfast item price Supermarket Type2 is much lower than the other outlets
+   * The median Breakfast item price for Supermarket Type 3 is higher than all other outlet types
+   * Supermarket Type 2 has the lowest mean price for Breakfast items while Supermarket Type3, Supermaket Type 1 and Grocey Store have similar mean price
+#### For Bread Items:
+   * The median price for Bread across the different outlets is almost the same
+   * The mean Bread price for Supermarket Type 3 and Grocery store are similar and is higher than all other outlet types
 
 ## Model
 
