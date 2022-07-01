@@ -33,13 +33,13 @@ Here is the Data Dictionary for this dataset:
 2. Create Exploratory Data Analysis on the data using pandas.
 3. Create Explanatory visualization of feature distributions and correlation using matplotlib, seaborn and pandas
 4. Build regression models on selected features and target variable  
-    4. Identify three types of features (Numeric, Ordinal, Nominal)
-    4. Transform each type of feature for machine learning
-    4. Use ordinal encoding for ordinal categorical features.
-    4. Use OneHotEncoder() to one-hot encode nominal categorical features.
-    4. Use SimpleImputer to impute missing values 
-    4. Use ColumnTransformer to perform different imputation strategies on different columns
-    4. Combine pipelines and column transformers to perform multiple transformations on different subsets of data.
+    1. Identify three types of features (Numeric, Ordinal, Nominal)
+    1. Transform each type of feature for machine learning
+    1. Use ordinal encoding for ordinal categorical features.
+    1. Use OneHotEncoder() to one-hot encode nominal categorical features.
+    1. Use SimpleImputer to impute missing values 
+    1. Use ColumnTransformer to perform different imputation strategies on different columns
+    1. Combine pipelines and column transformers to perform multiple transformations on different subsets of data.
 5. Evaluate the regression model using mean absolute error, mean squared error, root mean squared error and R-squared score in Python.
 6. Choose the most important metric for the analysis
 
