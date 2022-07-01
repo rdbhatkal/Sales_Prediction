@@ -1,5 +1,5 @@
 # Big Mart Sales Prediction
-## Subtitle describing the analysis 
+## Random Forest Regression 
 
 **Reeva Bhatkal** 
 
